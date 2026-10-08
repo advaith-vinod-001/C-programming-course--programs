@@ -9,9 +9,12 @@ class car{
 class dashboard{
     public:
     void display(const car&c){cout<<"Speed="<<c.speed<<"km/h\n";}
-    };
-    int main(){
+};
+
+ int main(){
     car c;c.accelerate();c.accelerate();
     dashboard().display(c);
     return 0;
-    }
+}
+
+
