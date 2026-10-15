@@ -14,7 +14,7 @@ class SafeArr{
     int &operator[](int i)
     {
         if(i<0||i>=5){cout<<"out of range:\n"; return a[0];}
-        return a[i
+        return a[i]
     }
 };
 int main(){
